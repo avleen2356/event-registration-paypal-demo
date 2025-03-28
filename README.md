@@ -6,7 +6,8 @@ This is a simple event registration form where users enter their name and email 
 Features
 - User-friendly form for entering name and email.
 - PayPal button for handling payments.
-- Success page after payment confirmation.
+- A confirmation page (success.html) after successful payment.
+- Simple lightweight design using HTML and CSS.
 
 ---
 
@@ -18,12 +19,16 @@ git clone https://github.com/YOUR_USERNAME/event-registration-paypal.git
 cd event-registration-paypal
 
 
+
 # 2️ Open in VS Code
 If you don’t have VS Code, download it here --> https://code.visualstudio.com/
 
 
 # 3️ Replace PayPal Client ID
 Edit `index.html` and replace `YOUR_PAYPAL_CLIENT_ID` with your actual PayPal Client ID from PayPal Developer --> https://developer.paypal.com/
+
+- Important Note- Never include your 
+payPal Client ID in a public repository as it contains your API credentials that can be misused .
 
 # 4️ Open `index.html` in a Browser
 Simply double-click `index.html` or use a Live Server extension in VS Code.
@@ -37,9 +42,11 @@ File Structure
 │── style.css   # Styling file
 │── success.html # Payment confirmation page
 │── README.md   # Instructions
-└── images/     # (Optional) Store images here
+└── images/     # Added Screenshots
 
 ---
+
+
 
 Useful VS Code Extensions
 Here are some recommended extensions to improve development:
@@ -62,9 +69,6 @@ This project can be deployed using [Netlify](https://www.netlify.com/) or [Verce
    netlify deploy --prod
 
 
-Additional Notes
-- Ensure you have a PayPal developer account to test transactions.
-- For backend storage, a Node.js server can be added to log registrations.
-- Modify styling in `style.css` as needed.
 
-Happy Coding!
+
+- Thanks for checking out this project.
